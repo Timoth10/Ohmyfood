@@ -110,65 +110,65 @@ body {
   background-color: #fcdfdb;
 }
 
-.menu__titre-1 {
+.menu-titre1 {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu__titre-1 {
+.menu-titre1 {
   font-family: "Devonshire";
   font-size: 1rem;
   font-weight: 400;
 }
 @media all and (min-width: 1023px) {
-  .menu__titre-1 {
+  .menu-titre1 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__titre-1 {
+  .menu-titre1 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__titre-1 {
+  .menu-titre1 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__titre-1 {
+  .menu-titre1 {
     font-size: 3rem;
   }
 }
 
-.menu__menu-1 {
+.menu-p-1 {
   color: black;
 }
 
-.menu__menu-1 {
+.menu-p-1 {
   font-family: "Itim";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: italic;
 }
 @media all and (min-width: 1023px) {
-  .menu__menu-1 {
+  .menu-p-1 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__menu-1 {
+  .menu-p-1 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__menu-1 {
+  .menu-p-1 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__menu-1 {
+  .menu-p-1 {
     font-size: 2.75rem;
   }
 }
@@ -177,65 +177,65 @@ body {
   background-color: #fff5fe;
 }
 
-.menu__titre-2 {
+.menu-titre2 {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu__titre-2 {
+.menu-titre2 {
   font-family: "Kurale";
   font-size: 0.8rem;
   font-weight: 600;
 }
 @media all and (min-width: 1023px) {
-  .menu__titre-2 {
+  .menu-titre2 {
     font-size: 1.44rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__titre-2 {
+  .menu-titre2 {
     font-size: 1.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__titre-2 {
+  .menu-titre2 {
     font-size: 2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__titre-2 {
+  .menu-titre2 {
     font-size: 2.4rem;
   }
 }
 
-.menu__menu-2 {
+.menu-p-2 {
   color: #c17624;
 }
 
-.menu__menu-2 {
+.menu-p-2 {
   font-family: "Abril Fatface";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu__menu-2 {
+  .menu-p-2 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__menu-2 {
+  .menu-p-2 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__menu-2 {
+  .menu-p-2 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__menu-2 {
+  .menu-p-2 {
     font-size: 2.75rem;
   }
 }
@@ -244,65 +244,65 @@ body {
   background-color: #f3f3f3;
 }
 
-.menu__titre-3 {
+.menu-titre3 {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu__titre-3 {
+.menu-titre3 {
   font-family: "Dancing Script";
   font-size: 1rem;
   font-weight: 500;
 }
 @media all and (min-width: 1023px) {
-  .menu__titre-3 {
+  .menu-titre3 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__titre-3 {
+  .menu-titre3 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__titre-3 {
+  .menu-titre3 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__titre-3 {
+  .menu-titre3 {
     font-size: 3rem;
   }
 }
 
-.menu__menu-3 {
+.menu-p-3 {
   color: #56a7e6;
 }
 
-.menu__menu-3 {
+.menu-p-3 {
   font-family: "Chilanka";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu__menu-3 {
+  .menu-p-3 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__menu-3 {
+  .menu-p-3 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__menu-3 {
+  .menu-p-3 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__menu-3 {
+  .menu-p-3 {
     font-size: 2.75rem;
   }
 }
@@ -311,65 +311,65 @@ body {
   background-color: #fdfffc;
 }
 
-.menu__titre-4 {
+.menu-titre4 {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu__titre-4 {
+.menu-titre4 {
   font-family: "Kaushan Script";
   font-size: 1rem;
   font-weight: 500;
 }
 @media all and (min-width: 1023px) {
-  .menu__titre-4 {
+  .menu-titre4 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__titre-4 {
+  .menu-titre4 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__titre-4 {
+  .menu-titre4 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__titre-4 {
+  .menu-titre4 {
     font-size: 3rem;
   }
 }
 
-.menu__menu-4 {
+.menu-p-4 {
   color: #77bf4f;
 }
 
-.menu__menu-4 {
+.menu-p-4 {
   font-family: "Chilanka";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu__menu-4 {
+  .menu-p-4 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu__menu-4 {
+  .menu-p-4 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu__menu-4 {
+  .menu-p-4 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu__menu-4 {
+  .menu-p-4 {
     font-size: 2.75rem;
   }
 }
@@ -876,7 +876,7 @@ body {
   height: 100%;
 }
 
-}
+
 
 @media all and (max-width: 200px) {
   #main_footer {
@@ -1036,7 +1036,7 @@ body {
   padding-left: 0.2rem;
 }
 
-.menu__menu {
+.menu-p {
   margin-top: 0;
 }
 
