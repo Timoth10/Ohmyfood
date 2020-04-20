@@ -11,12 +11,10 @@
       &-#{$num-menu} {
         background: -webkit-linear-gradient(
           -45deg,
-          map-get($map: $color1-menu__titre, $key: $color1) 10%,
-          map-get($map: $color2-menu__titre, $key: $color2) 60%,
-          map-get($map: $color3-menu__titre, $key: $color3) 80%
+          map-get($map: $color1-menu-titre, $key: $color1) 10%,
+          map-get($map: $color2-menu-titre, $key: $color2) 60%,
+          map-get($map: $color3-menu-titre, $key: $color3) 80%
         );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
       }
     }
   }
@@ -24,7 +22,7 @@
   @mixin menu-p($num-menu, $color) {
     .menu-p {
       &-#{$num-menu} {
-        color: map-get($map: $color-menu__menu, $key: $color);
+        color: map-get($map: $color-menu-p, $key: $color);
       }
     }
   }
