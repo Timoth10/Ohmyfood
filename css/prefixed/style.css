@@ -44,7 +44,6 @@ body {
     font-size: 1.5rem;
   }
 }
-
 .btn h2 {
   font-family: "Montserrat", sans-serif, Arial, Helvetica;
   font-weight: 400;
@@ -92,19 +91,120 @@ body {
     height: 32px;
   }
 }
-
+@media all and (min-width: 901px) {
+  .btn--anim {
+    position: relative;
+  }
+  .btn--anim .dot {
+    display: none;
+    position: absolute;
+    bottom: -65%;
+    left: 30%;
+  }
+  .btn--anim .dot--1 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 100ms, 1000ms;
+            animation-delay: 100ms, 1000ms;
+    left: 30%;
+  }
+  .btn--anim .dot--2 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 400ms, 1100ms;
+            animation-delay: 400ms, 1100ms;
+    left: 45%;
+  }
+  .btn--anim .dot--3 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 700ms, 1200ms;
+            animation-delay: 700ms, 1200ms;
+    left: 60%;
+  }
+  .btn--anim:hover {
+    cursor: pointer;
+  }
+  .btn--anim:hover h2 {
+    -webkit-animation: prochainement 2000ms forwards;
+            animation: prochainement 2000ms forwards;
+  }
+  .btn--anim:hover div {
+    display: block;
+  }
+}
 @media all and (min-width: 1017px) and (min-height: 1000px) {
   .btn {
     width: 250px;
     height: 43px;
   }
 }
-
+@media all and (max-width: 900px) {
+  .btn {
+    position: relative;
+    cursor: pointer;
+  }
+  .btn h2 {
+    -webkit-transform: translateX(14%);
+        -ms-transform: translateX(14%);
+            transform: translateX(14%);
+    -webkit-animation: prochainementmob 900ms 1000ms forwards;
+            animation: prochainementmob 900ms 1000ms forwards;
+  }
+  .btn .dot--1 {
+    -webkit-transform: translateY(-19%);
+        -ms-transform: translateY(-19%);
+            transform: translateY(-19%);
+    font-size: 3.5rem;
+    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
+            animation: points1mob 900ms both, points2mob 600ms infinite;
+    -webkit-animation-delay: 900ms, 1900ms;
+            animation-delay: 900ms, 1900ms;
+    left: 30%;
+  }
+}
 @media all and (max-width: 900px) and (max-width: 200px) {
   .btn .dot--1 {
     font-size: 2rem;
   }
 }
+@media all and (max-width: 900px) {
+  .btn .dot--2 {
+    -webkit-transform: translateY(-19%);
+        -ms-transform: translateY(-19%);
+            transform: translateY(-19%);
+    font-size: 3.5rem;
+    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
+            animation: points1mob 900ms both, points2mob 600ms infinite;
+    -webkit-animation-delay: 1200ms, 2000ms;
+            animation-delay: 1200ms, 2000ms;
+    left: 45%;
+  }
+}
+@media all and (max-width: 900px) and (max-width: 200px) {
+  .btn .dot--2 {
+    font-size: 2rem;
+  }
+}
+@media all and (max-width: 900px) {
+  .btn .dot--3 {
+    -webkit-transform: translateY(-19%);
+        -ms-transform: translateY(-19%);
+            transform: translateY(-19%);
+    font-size: 3.5rem;
+    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
+            animation: points1mob 900ms both, points2mob 600ms infinite;
+    -webkit-animation-delay: 1500ms, 2100ms;
+            animation-delay: 1500ms, 2100ms;
+    left: 60%;
+  }
+}
+@media all and (max-width: 900px) and (max-width: 200px) {
+  .btn .dot--3 {
+    font-size: 2rem;
+  }
+}
+
 
 .menu-1 {
   background-color: #fcdfdb;
@@ -1316,4 +1416,118 @@ body {
   width: 50%;
   margin: 1rem auto 1rem auto;
   text-align: center;
+}
+@keyframes wiggle {
+  25% {
+    transform: translateX(3%);
+  }
+  75% {
+    transform: translateX(-3%);
+  }
+}
+@keyframes prochainement {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-185px);
+    opacity: 0;
+  }
+}
+@keyframes prochainementmob {
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes points1 {
+  0% {
+    transform: translate(140px, -7px);
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: translate(93px, -7px);
+    opacity: 0;
+    animation-timing-function: linear;
+  }
+  34% {
+    transform: translate(47px, 0);
+    opacity: 0.5;
+    animation-timing-function: linear;
+  }
+  51% {
+    transform: translate(15px, -7px);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  65% {
+    transform: translate(0, 0);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+}
+@keyframes points2 {
+  68% {
+    transform: translate(0, 0);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  85% {
+    transform: translate(0, -7px);
+    opacity: 1;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes points1mob {
+  0% {
+    transform: translate(55px, -26%);
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: translate(36px, -26%);
+    opacity: 0;
+    animation-timing-function: linear;
+  }
+  34% {
+    transform: translate(18px, -19%);
+    opacity: 0;
+    animation-timing-function: linear;
+  }
+  51% {
+    transform: translate(8px, -26%);
+    opacity: 0.5;
+    animation-timing-function: linear;
+  }
+  65% {
+    transform: translate(0, -19%);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+}
+@keyframes points2mob {
+  68% {
+    transform: translate(0, -19%);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  85% {
+    transform: translate(0, -26%);
+    opacity: 1;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(0, -19%);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
 }
