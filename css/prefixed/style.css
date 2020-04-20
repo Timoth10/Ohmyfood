@@ -1138,6 +1138,13 @@ body {
   }
 }
 
+@media all and (max-width: 480px) {
+  .menu {
+    height: 50vh;
+    width: 60%;
+  }
+}
+
 .menu-icon {
   margin-bottom: 0;
   display: -webkit-box;
