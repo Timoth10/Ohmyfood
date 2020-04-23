@@ -1,9 +1,9 @@
 // Police des menus la page accueil
 
-@mixin menu-titre--font($num-menu, $num-font, $font-size, $font-weight) {
-  .menu-titre {
+@mixin menu__titre--font($num-menu, $num-font, $font-size, $font-weight) {
+  .menu__titre {
     &-#{$num-menu} {
-      font-family: map-get($map: $font-menu-titre, $key: $num-font);
+      font-family: map-get($map: $font-menu__titre, $key: $num-font);
       font-size: $font-size;
       font-weight: $font-weight;
       @media all and (min-width: 1023px) {
@@ -22,10 +22,10 @@
   }
 }
 
-@mixin menu-p--font($num-menu, $num-font, $font-size, $font-weight, $font-style) {
-  .menu-p {
+@mixin menu__menu--font($num-menu, $num-font, $font-size, $font-weight, $font-style) {
+  .menu__menu {
     &-#{$num-menu} {
-      font-family: map-get($font-menu-p, $num-font);
+      font-family: map-get($font-menu__menu, $num-font);
       font-size: $font-size;
       font-weight: $font-weight;
       font-style: $font-style;
@@ -67,15 +67,15 @@
   .list {
     &-#{$num-menu} {
       &__header {
-        font-family: map-get($map: $font-menu-titre, $key: $num-font1);
+        font-family: map-get($map: $font-menu__titre, $key: $num-font1);
         font-size: $size-title-font;
       }
       &__title {
         background: -webkit-linear-gradient(
           -45deg,
-          map-get($map: $color1-menu-titre, $key: $color1-title) 10%,
-          map-get($map: $color2-menu-titre, $key: $color2-title) 60%,
-          map-get($map: $color3-menu-titre, $key: $color3-title) 80%
+          map-get($map: $color1-menu__titre, $key: $color1-title) 10%,
+          map-get($map: $color2-menu__titre, $key: $color2-title) 60%,
+          map-get($map: $color3-menu__titre, $key: $color3-title) 80%
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -97,40 +97,40 @@
         //Dans le cas où la couleur des plats sur les menus, ainsi que leurs titres (entrées,plats,desserts), correspondent aux trois couleurs composant le titre du menu (cf."le chic à la française")
         &:nth-of-type(1) {
           ul {
-            color: map-get($map: $color1-menu-titre, $key: $color1);
+            color: map-get($map: $color1-menu__titre, $key: $color1);
           }
         }
         &:nth-of-type(2) {
           ul {
-            color: map-get($map: $color2-menu-titre, $key: $color2);
+            color: map-get($map: $color2-menu__titre, $key: $color2);
           }
         }
         &:nth-of-type(3) {
           ul {
-            color: map-get($map: $color3-menu-titre, $key: $color3);
+            color: map-get($map: $color3-menu__titre, $key: $color3);
           }
         }
         &:nth-of-type(1) {
           h4 {
-            color: map-get($map: $color1-menu-titre, $key: $color1);
+            color: map-get($map: $color1-menu__titre, $key: $color1);
             &::after {
-              color: map-get($map: $color1-menu-titre, $key: $color-bar1);
+              color: map-get($map: $color1-menu__titre, $key: $color-bar1);
             }
           }
         }
         &:nth-of-type(2) {
           h4 {
-            color: map-get($map: $color2-menu-titre, $key: $color2);
+            color: map-get($map: $color2-menu__titre, $key: $color2);
             &::after {
-              color: map-get($map: $color2-menu-titre, $key: $color-bar2);
+              color: map-get($map: $color2-menu__titre, $key: $color-bar2);
             }
           }
         }
         &:nth-of-type(3) {
           h4 {
-            color: map-get($map: $color3-menu-titre, $key: $color3);
+            color: map-get($map: $color3-menu__titre, $key: $color3);
             &::after {
-              color: map-get($map: $color3-menu-titre, $key: $color-bar3);
+              color: map-get($map: $color3-menu__titre, $key: $color-bar3);
             }
           }
         }
@@ -140,7 +140,7 @@
       }
       &__footer {
         //le footer ne concerne pour le moment que la carte de "La note enchantée"
-        font-family: map-get($map: $font-menu-titre, $key: $num-font1);
+        font-family: map-get($map: $font-menu__titre, $key: $num-font1);
         font-size: 1.1rem;
       }
 

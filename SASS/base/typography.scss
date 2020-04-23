@@ -47,7 +47,13 @@ body {
       font-size: 0.9rem;
     }
   }
-
-    
-  
+  &--anim {
+    div {
+      font-size: 7rem;
+      // MEDIA QUERIES ---------------------------------
+      @media all and (min-width: 1017px) and (min-height: 1000px) {
+        font-size: 9rem;
+      }
+    }
+  }
 }

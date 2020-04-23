@@ -210,65 +210,65 @@ body {
   background-color: #fcdfdb;
 }
 
-.menu-titre-1 {
+.menu__titre-1 {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu-titre-1 {
+.menu__titre-1 {
   font-family: "Devonshire";
   font-size: 1rem;
   font-weight: 400;
 }
 @media all and (min-width: 1023px) {
-  .menu-titre-1 {
+  .menu__titre-1 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-titre-1 {
+  .menu__titre-1 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-titre-1 {
+  .menu__titre-1 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-titre-1 {
+  .menu__titre-1 {
     font-size: 3rem;
   }
 }
 
-.menu-p-1 {
+.menu__menu-1 {
   color: black;
 }
 
-.menu-p-1 {
+.menu__menu-1 {
   font-family: "Itim";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: italic;
 }
 @media all and (min-width: 1023px) {
-  .menu-p-1 {
+  .menu__menu-1 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-p-1 {
+  .menu__menu-1 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-p-1 {
+  .menu__menu-1 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-p-1 {
+  .menu__menu-1 {
     font-size: 2.75rem;
   }
 }
@@ -277,65 +277,65 @@ body {
   background-color: #fff5fe;
 }
 
-.menu-titre-2 {
+.menu__titre-2 {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu-titre-2 {
+.menu__titre-2 {
   font-family: "Kurale";
   font-size: 0.8rem;
   font-weight: 600;
 }
 @media all and (min-width: 1023px) {
-  .menu-titre-2 {
+  .menu__titre-2 {
     font-size: 1.44rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-titre-2 {
+  .menu__titre-2 {
     font-size: 1.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-titre-2 {
+  .menu__titre-2 {
     font-size: 2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-titre-2 {
+  .menu__titre-2 {
     font-size: 2.4rem;
   }
 }
 
-.menu-p-2 {
+.menu__menu-2 {
   color: #c17624;
 }
 
-.menu-p-2 {
+.menu__menu-2 {
   font-family: "Abril Fatface";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu-p-2 {
+  .menu__menu-2 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-p-2 {
+  .menu__menu-2 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-p-2 {
+  .menu__menu-2 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-p-2 {
+  .menu__menu-2 {
     font-size: 2.75rem;
   }
 }
@@ -344,65 +344,65 @@ body {
   background-color: #f3f3f3;
 }
 
-.menu-titre-3 {
+.menu__titre-3 {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu-titre-3 {
+.menu__titre-3 {
   font-family: "Dancing Script";
   font-size: 1rem;
   font-weight: 500;
 }
 @media all and (min-width: 1023px) {
-  .menu-titre-3 {
+  .menu__titre-3 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-titre-3 {
+  .menu__titre-3 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-titre-3 {
+  .menu__titre-3 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-titre-3 {
+  .menu__titre-3 {
     font-size: 3rem;
   }
 }
 
-.menu-p-3 {
+.menu__menu-3 {
   color: #56a7e6;
 }
 
-.menu-p-3 {
+.menu__menu-3 {
   font-family: "Chilanka";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu-p-3 {
+  .menu__menu-3 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-p-3 {
+  .menu__menu-3 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-p-3 {
+  .menu__menu-3 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-p-3 {
+  .menu__menu-3 {
     font-size: 2.75rem;
   }
 }
@@ -411,65 +411,65 @@ body {
   background-color: #fdfffc;
 }
 
-.menu-titre-4 {
+.menu__titre-4 {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.menu-titre-4 {
+.menu__titre-4 {
   font-family: "Kaushan Script";
   font-size: 1rem;
   font-weight: 500;
 }
 @media all and (min-width: 1023px) {
-  .menu-titre-4 {
+  .menu__titre-4 {
     font-size: 1.8rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-titre-4 {
+  .menu__titre-4 {
     font-size: 1.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-titre-4 {
+  .menu__titre-4 {
     font-size: 2.5rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-titre-4 {
+  .menu__titre-4 {
     font-size: 3rem;
   }
 }
 
-.menu-p-4 {
+.menu__menu-4 {
   color: #77bf4f;
 }
 
-.menu-p-4 {
+.menu__menu-4 {
   font-family: "Chilanka";
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
 }
 @media all and (min-width: 1023px) {
-  .menu-p-4 {
+  .menu__menu-4 {
     font-size: 1.98rem;
   }
 }
 @media all and (min-height: 1000px) {
-  .menu-p-4 {
+  .menu__menu-4 {
     font-size: 1.65rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1000px) {
-  .menu-p-4 {
+  .menu__menu-4 {
     font-size: 2.2rem;
   }
 }
 @media all and (min-width: 1017px) and (min-height: 1200px) {
-  .menu-p-4 {
+  .menu__menu-4 {
     font-size: 2.75rem;
   }
 }
@@ -960,8 +960,7 @@ body {
           align-items: center;
 }
 
-.mentions a,
-.contact a {
+.legals a, .contact a {
   color: #fbcb4e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -975,8 +974,7 @@ body {
   text-align: center;
   height: 100%;
 }
-.mentions a:hover,
-.contact a:hover {
+.legals a:hover, .contact a:hover {
   -webkit-animation: wiggle 250ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 3;
           animation: wiggle 250ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 3;
 }
@@ -994,11 +992,11 @@ body {
     margin-bottom: 1rem;
   }
 
-  .mentions {
+  .legals {
     margin-top: 1rem;
   }
 }
-.conteneur {
+.container {
   min-height: 84.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1076,8 +1074,8 @@ body {
 }
 
 .menu {
-  height: 31vh;
-  width: 22vh;
+  height: 40vh;
+  width: 30vh;
   min-height: 8rem;
   min-width: 6rem;
   margin: 1.5vh 1vh 1.5vh 1vh;
@@ -1138,13 +1136,6 @@ body {
   }
 }
 
-@media all and (max-width: 480px) {
-  .menu {
-    height: 50vh;
-    width: 60%;
-  }
-}
-
 .menu-icon {
   margin-bottom: 0;
   display: -webkit-box;
@@ -1174,12 +1165,12 @@ body {
   }
 }
 
-.menu-titre {
+.menu__titre {
   margin-top: 0;
   padding-left: 0.2rem;
 }
 
-.menu-p {
+.menu__menu {
   margin-top: 0;
 }
 
@@ -1426,14 +1417,14 @@ body {
   }
 }
 
-.center_page--mentions {
+.center_page--legals {
   min-height: 84.5%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-#mentions {
+#legals {
   width: 50%;
   margin: 1rem auto 1rem auto;
   text-align: center;
@@ -1742,4 +1733,3 @@ body {
             animation-timing-function: ease-out;
   }
 }
-
