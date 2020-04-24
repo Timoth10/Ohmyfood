@@ -86,13 +86,8 @@ body {
   max-height: 100%;
   border-radius: 0.5rem;
 }
-@media all and (max-width: 200px) {
-  .btn {
-    width: 140px;
-    height: 32px;
-  }
-}
-@media all and (min-width: 901px) {
+
+@media all and (max-width: 480px) {
   .btn--anim {
     position: relative;
   }
@@ -134,75 +129,46 @@ body {
     display: block;
   }
 }
-@media all and (min-width: 1017px) and (min-height: 1000px) {
-  .btn {
-    width: 250px;
-    height: 43px;
-  }
-}
-@media all and (max-width: 900px) {
-  .btn {
+@media all and (min-width: 480px) {
+  .btn--anim {
     position: relative;
-    cursor: pointer;
   }
-  .btn h2 {
-    -webkit-transform: translateX(14%);
-        -ms-transform: translateX(14%);
-            transform: translateX(14%);
-    -webkit-animation: prochainementmob 900ms 1000ms forwards;
-            animation: prochainementmob 900ms 1000ms forwards;
-  }
-  .btn .dot--1 {
-    -webkit-transform: translateY(-19%);
-        -ms-transform: translateY(-19%);
-            transform: translateY(-19%);
-    font-size: 3.5rem;
-    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
-            animation: points1mob 900ms both, points2mob 600ms infinite;
-    -webkit-animation-delay: 900ms, 1900ms;
-            animation-delay: 900ms, 1900ms;
+  .btn--anim .dot {
+    display: none;
+    position: absolute;
+    bottom: -65%;
     left: 30%;
   }
-}
-@media all and (max-width: 900px) and (max-width: 200px) {
-  .btn .dot--1 {
-    font-size: 2rem;
+  .btn--anim .dot--1 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 100ms, 1000ms;
+            animation-delay: 100ms, 1000ms;
+    left: 30%;
   }
-}
-@media all and (max-width: 900px) {
-  .btn .dot--2 {
-    -webkit-transform: translateY(-19%);
-        -ms-transform: translateY(-19%);
-            transform: translateY(-19%);
-    font-size: 3.5rem;
-    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
-            animation: points1mob 900ms both, points2mob 600ms infinite;
-    -webkit-animation-delay: 1200ms, 2000ms;
-            animation-delay: 1200ms, 2000ms;
+  .btn--anim .dot--2 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 400ms, 1100ms;
+            animation-delay: 400ms, 1100ms;
     left: 45%;
   }
-}
-@media all and (max-width: 900px) and (max-width: 200px) {
-  .btn .dot--2 {
-    font-size: 2rem;
-  }
-}
-@media all and (max-width: 900px) {
-  .btn .dot--3 {
-    -webkit-transform: translateY(-19%);
-        -ms-transform: translateY(-19%);
-            transform: translateY(-19%);
-    font-size: 3.5rem;
-    -webkit-animation: points1mob 900ms both, points2mob 600ms infinite;
-            animation: points1mob 900ms both, points2mob 600ms infinite;
-    -webkit-animation-delay: 1500ms, 2100ms;
-            animation-delay: 1500ms, 2100ms;
+  .btn--anim .dot--3 {
+    -webkit-animation: points1 900ms both, points2 600ms infinite;
+            animation: points1 900ms both, points2 600ms infinite;
+    -webkit-animation-delay: 700ms, 1200ms;
+            animation-delay: 700ms, 1200ms;
     left: 60%;
   }
-}
-@media all and (max-width: 900px) and (max-width: 200px) {
-  .btn .dot--3 {
-    font-size: 2rem;
+  .btn--anim:hover {
+    cursor: pointer;
+  }
+  .btn--anim:hover h2 {
+    -webkit-animation: prochainement 2000ms forwards;
+            animation: prochainement 2000ms forwards;
+  }
+  .btn--anim:hover div {
+    display: block;
   }
 }
 
@@ -960,7 +926,8 @@ body {
           align-items: center;
 }
 
-.legals a, .contact a {
+.legals a,
+.contact a {
   color: #fbcb4e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,7 +941,8 @@ body {
   text-align: center;
   height: 100%;
 }
-.legals a:hover, .contact a:hover {
+.legals a:hover,
+.contact a:hover {
   -webkit-animation: wiggle 250ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 3;
           animation: wiggle 250ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 3;
 }
@@ -1039,8 +1007,9 @@ body {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-evenly;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding-left: 35vh;
+  padding-right: 35vh;
+  padding-bottom: 5vh;
 }
 #section_menu2 {
   display: -webkit-box;
@@ -1052,8 +1021,9 @@ body {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-evenly;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding-left: 40vh;
+  padding-right: 40vh;
+  padding-top: 5vh;
 }
 
 #soon {
@@ -1074,8 +1044,8 @@ body {
 }
 
 .menu {
-  height: 40vh;
-  width: 30vh;
+  height: 50vh;
+  width: 40vh;
   min-height: 8rem;
   min-width: 6rem;
   margin: 1.5vh 1vh 1.5vh 1vh;
@@ -1129,10 +1099,27 @@ body {
       -ms-transform: scale(1.15);
           transform: scale(1.15);
 }
-@media all and (min-width: 1023px) {
+@media all and (max-width: 480px) {
   .menu {
-    height: 58vh;
-    width: 40vh;
+    height: 40vh;
+    width: 30vh;
+  }
+  #section_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: 0vh;
+  }
+  
+  #section_menu2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 0vh;
   }
 }
 

@@ -960,16 +960,18 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding-left: 40vh;
+  padding-right: 40vh;
+  padding-bottom: 5vh;
 }
 
 #section_menu2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding-left: 40vh;
+  padding-right: 40vh;
+  padding-top: 5vh;
 }
 
 #soon {
@@ -1011,10 +1013,25 @@ body {
 .menu a:hover {
   transform: scale(1.15);
 }
-@media all and (min-width: 1023px) {
+@media all and (min-width: 480px) {
   .menu {
-    height: 58vh;
-    width: 40vh;
+    height: 40vh;
+    width: 30vh;
+  }
+  #section_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+  
+  #section_menu2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3vh;
+    padding-right: 3vh;
   }
 }
 
