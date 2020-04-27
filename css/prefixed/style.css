@@ -497,7 +497,7 @@ body {
 .list-1__footer {
   font-family: "Devonshire";
   font-size: 1.1rem;
-}/*
+}
 @media all and (min-width: 1440px) {
   .list-1__header {
     font-size: 2.86rem;
@@ -511,7 +511,7 @@ body {
   .list-1__footer {
     font-size: 2rem;
   }
-}*//*
+}/*
 @media all and (min-width: 1024px) and (max-width: 1439px) {
   .list-1__header {
     font-size: 2.6rem;
@@ -611,7 +611,7 @@ body {
 .list-2__footer {
   font-family: "Kurale";
   font-size: 1.1rem;
-}/*
+}
 @media all and (min-width: 1440px) {
   .list-2__header {
     font-size: 2.2rem;
@@ -625,7 +625,7 @@ body {
   .list-2__footer {
     font-size: 2rem;
   }
-}
+}/*
 @media all and (min-width: 1024px) and (max-width: 1439px) {
   .list-2__header {
     font-size: 2rem;
@@ -707,7 +707,7 @@ body {
 .list-3__footer {
   font-family: "Dancing Script";
   font-size: 1.1rem;
-}/*
+}
 @media all and (min-width: 1440px) {
   .list-3__header {
     font-size: 2.2rem;
@@ -763,7 +763,7 @@ body {
     font-size: 0.8rem;
   }
 }
-*/
+
 .list-4 {
   background-color: #fdfffc;
 }
@@ -803,7 +803,7 @@ body {
 .list-4__footer {
   font-family: "Kaushan Script";
   font-size: 1.1rem;
-}/*
+}
 @media all and (min-width: 1440px) {
   .list-4__header {
     font-size: 2.2rem;
@@ -817,7 +817,7 @@ body {
   .list-4__footer {
     font-size: 2rem;
   }
-}
+}/*
 @media all and (min-width: 1024px) and (max-width: 1439px) {
   .list-4__header {
     font-size: 2rem;
@@ -1211,7 +1211,7 @@ body {
   .menu-icon img {
     width: 4rem;
   }
-}*/
+}
 @media all and (min-width: 1017px) and (min-height: 1000px) {
   .menu-icon img {
     width: 4rem;
@@ -1222,7 +1222,7 @@ body {
     width: 6rem;
   }
 }
-
+*/
 .menu__titre {
   margin-top: 0;
   padding-left: 0.2rem;
