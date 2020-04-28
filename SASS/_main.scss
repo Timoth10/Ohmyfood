@@ -1,0 +1,21 @@
+@import "./utils/_variables";
+//variables
+//functions
+@import "./utils/_mixinsmenu";
+@import "./utils/_mixinslist";
+//mixins
+@import "./base/_base";
+@import "./base/_typography";
+@import "./base/_mixinstypography";
+@import "./components/_btn";
+@import "./components/_menu";
+@import "./components/_list";
+//blocs BEM indépendants
+@import "./layouts/_header";
+@import "./layouts/_footer";
+@import "./layouts/_sectionp";
+//blocs BEM réutilisables
+@import "./pages/_acceuil";
+@import "./pages/_restaurant";
+@import "./pages/_legals";
+@import "./utils/_animations"; //On place les Keyframes en dernier pour des raisons d'optimisation

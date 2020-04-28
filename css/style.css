@@ -1013,7 +1013,7 @@ body {
 .menu a:hover {
   transform: scale(1.15);
 }
-@media all and (min-width: 480px) {
+@media all and (max-width: 480px) {
   .menu {
     height: 40vh;
     width: 30vh;
@@ -1024,6 +1024,7 @@ body {
     justify-content: space-evenly;
     padding-left: 3vh;
     padding-right: 3vh;
+    padding-bottom: 0vh;
   }
   
   #section_menu2 {
@@ -1032,9 +1033,80 @@ body {
     justify-content: space-evenly;
     padding-left: 3vh;
     padding-right: 3vh;
+    padding-top: 0vh;
   }
 }
 
+@media all and (min-width: 768px) {
+  .menu {
+    height: 45vh;
+    width: 35vh;
+  }
+  #section_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 3vh;
+  }
+  
+  #section_menu2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 3vh;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .menu {
+    height: 45vh;
+    width: 35vh;
+  }
+  #section_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-bottom: 1h;
+  }
+  
+  #section_menu2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-top: 1vh;
+  }
+}
+@media all and (min-width: 1440px) {
+  .menu {
+    height: 45vh;
+    width: 35vh;
+  }
+  #section_menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 54vh;
+    padding-right: 54vh;
+    padding-bottom: 2vh;
+  }
+  
+  #section_menu2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 54vh;
+    padding-right: 54vh;
+    padding-top: 2vh;
+  }
+}
 .menu__ico {
   margin-bottom: 0;
   display: flex;
